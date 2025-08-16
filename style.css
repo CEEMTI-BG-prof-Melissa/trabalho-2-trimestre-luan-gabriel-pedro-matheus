@@ -1,11 +1,7 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-/* Cabeçalho */
 header {
     background: #1e3d59;
     color: white;
@@ -14,10 +10,10 @@ header {
 }
 
 nav ul {
-    list-style: none;
+    
     display: flex;
+    list-style: none;
     justify-content: center;
-    gap: 10px;
 }
 
 nav ul li a {
@@ -25,7 +21,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Pseudo-classes */
 nav ul li a:hover {
     color: yellow;
 }
@@ -39,12 +34,10 @@ section:nth-child(odd) {
     background: white;
 }
 
-/* Conteúdo */
 main {
     padding: 15px;
 }
 
-/* Seletores combinadores */
 main > section h2 {
     color: #1e3d59;
 }
