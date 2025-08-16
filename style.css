@@ -38,22 +38,21 @@ main {
 main > section h2 {
     color: #1e3d59;
 }
+a[href^="#"] {
+    border-bottom: 1px solid transparent;
+}
 main section p {
     font-size: 1rem;
 }
 
-/* Seletores de atributos */
-a[href^="#"] {
-    border-bottom: 1px solid transparent;
-}
-a[href^="#"]:hover {
-    border-bottom: 1px solid yellow;
-}
-
-/* Rodapé */
 footer {
     background: #1e3d59;
     color: white;
     text-align: center;
     padding: 10px;
 }
+a[href^="#"]:hover {
+    border-bottom: 1px solid yellow;
+}
+
+
